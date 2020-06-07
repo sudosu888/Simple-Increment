@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IncrementForm));
             this.NumDisplay = new System.Windows.Forms.Label();
             this.button_Add = new System.Windows.Forms.Button();
             this.button_Subtract = new System.Windows.Forms.Button();
@@ -113,6 +114,7 @@
             this.Controls.Add(this.button_Subtract);
             this.Controls.Add(this.button_Add);
             this.Controls.Add(this.NumDisplay);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "IncrementForm";
             this.Text = "Increment";
             this.ResumeLayout(false);
